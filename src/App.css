@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+  transition: all 0.5s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  /* 높이를 잡아주니 변화없이 밀리는 것을 확인 */
+  height: 60px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  /* 링크마다 트랜지션 */
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.toggle_block {
+  display: block;
+}
+
+.toggle_none {
+  display: none;
+}
+
+.toggle_ml_50 {
+  margin-left: 50px;
+}
+
+.toggle_ml_0 {
+  margin-left: 0;
+}
+
+.toggle_width_300 {
+  width: 300px;
+}
+
+.toggle_width_50 {
+  width: 50px;
+}
